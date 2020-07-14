@@ -1,6 +1,6 @@
-# PureData setup
+# Pure Data setup
 
-## linux
+## Linux
 
 ### ubuntu/xubuntu 16.04
 
@@ -10,4 +10,9 @@ echo 'deb http://download.opensuse.org/repositories/home:/aggraef/xUbuntu_16.04/
 curl -fsSL https://download.opensuse.org/repositories/home:aggraef/xUbuntu_16.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home:aggraef.gpg > /dev/null
 sudo apt update
 sudo apt install purr-data
+```
+
+# Launch it (TODO)
+
+
 ```
